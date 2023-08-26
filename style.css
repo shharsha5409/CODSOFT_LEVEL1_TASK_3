@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+            background-image: url('https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=');
+            margin: 0;
+            padding: 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mx-auto {
+            margin: auto;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .button {
+            padding: 20px;
+            width: 66px;
+            margin: 0 3px;
+            border: 2px solid black;
+            border-radius: 9px;
+            cursor: pointer;
+            background-color: aqua;
+            font-size: 20px;
+        }
+
+        .row {
+            margin: 8px 0;
+        }
+
+        .row input {
+            margin: 0;
+            width: 291px;
+            padding: 10px 0px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 23px;
+            background-color: bisque;
+        }
+
+        .button:hover {
+            background-color: rgb(8, 201, 235);
+        }
